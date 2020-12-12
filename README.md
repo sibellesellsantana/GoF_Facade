@@ -9,19 +9,13 @@ Ele fornece uma interface simplificada para acessar as suas funcionalidades.Tend
 
 
 Como utilizar o componente reutilizável:
-Através da importação explícta ou implícita.
-
-Importação Explícita
-A importação explícita é utilizada para importar uma classe específica do pacote.
-Por exemplo: 
-import GoFReutilizaveis.Estadia;
-Sendo GofReutilizaveis o pacote
-Sendo Estadia uma classe do pacote.
-
-Importação Implícita
-A importação implícita é utilizada para importar todas as classes do pacote para sua classe sem declarar a importação uma por uma.
-Por exemplo:
-GoFReutilizaveis.*
-
-
+1) Criar arquivo .jar
+Clicar na pasta que contém componentes reutilizáveis -> Java -> Java -> Java Jar file
+2) No projeto onde deseja-se incluir os componentes reutilizáveis
+  Clique com o botão direito do mouse no seu projeto
+  Selecionar caminho de construção
+  Clique em Configurar caminho de construção
+  Clique em Bibliotecas e selecione Adicionar JARs Externos
+  Selecione o arquivo jar na pasta necessária
+  Clique e Aplique e Ok
 
